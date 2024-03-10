@@ -94,7 +94,7 @@ exports.getNearestPosts = async (req, res, next) => {
 
 exports.getAllPost = async (req, res, next) => {
   try {
-    const posts = await ShareAbleItem.find().populate('user').populate('location');
+    const posts = await ShareAbleItem.find();
     res.json({ posts });
   } catch (err) {
     next(err);
