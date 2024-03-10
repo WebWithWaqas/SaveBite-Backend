@@ -1,5 +1,5 @@
 {
-    "version": 1.2.2,
+    "version": 1.2,
     "name": "SaveBite",
     "builds": [
        { "src": "app.js", "use": "@vercel/node" }
