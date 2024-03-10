@@ -24,7 +24,7 @@ if (env === 'development') {
  */
 exports.connect = () => {
   mongoose
-    .connect("mongodb+srv://waqas:cluster123password123@savebitecluster.8tft8u2.mongodb.net/food", {
+    .connect(mongodb+srv://waqas:cluster123password123@savebitecluster.8tft8u2.mongodb.net/?retryWrites=true&w=majority&appName=SaveBiteCluster/food", {
       // useCreateIndex: true,
       // keepAlive: 1,
       useNewUrlParser: true,
