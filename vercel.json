@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "save-bite",
+    "name": "express-rest-es2017-boilerplate",
     "builds": [
        { "src": "app.js", "use": "@vercel/node" }
     ],
